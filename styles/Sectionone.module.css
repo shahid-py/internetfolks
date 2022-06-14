@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    place-items:center;
+    
+}
+
+  
+    .main{
+        text-align:center;
+        
+    }
+
+     .title{
+    margin-top:justify;
+    font-size: 10rem;
+    
+    
+    
+     }
+     
+@media (max-width: 992px) {
+    .container {
+      position: center;
+      padding-block: 90px;
+      
+    }
+   .title{
+    font-size:6rem;
+    align-text:justify;
+   }
+    
+  }
+

@@ -1,0 +1,41 @@
+.section {
+
+  min-height: 300px;
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/Meteor.svg");
+  background-color: hsl(257, 7%, 63%);
+  display: grid;
+  place-content: center;
+
+}
+.inner{
+  width:min(90vw, 1112px);
+  text-align: center;
+  color:#fff;
+}
+.h3 {
+  font-size: clamp(30px, calc(1.875rem + ((1vw - 3.75px) * 0.939)), 40px);
+  margin-bottom: 10px;
+}
+.button{
+  cursor: pointer;
+  background-color: hsl(180, 66%, 49%);
+
+  color: #fff;
+  padding: 15px 50px;
+  font-weight: 700;
+  transition: background-color 0.4s ease;
+  border-radius: 5px;
+  font-size: 18px;
+  border-radius:30px;
+}
+.button:hover{
+  background-color:hsla(180, 66%, 49%, 0.685);
+}
+
+@media (min-width: 992px) {
+  .section {
+    background-image: url("/Meteor.svg");
+  }
+}
